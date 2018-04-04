@@ -1,0 +1,32 @@
+//
+//  Umka.pch
+//  Umka
+//
+//  Created by Ігор on 09.09.17.
+//  Copyright © 2017 Igor Zalisky. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Constants.h"
+#import "ApiManager.h"
+#import "UmkaUser.h"
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UserModel.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "Dialog.h"
+#import "NSString+Custom.h"
+#import "NSDate+Custom.h"
+#import "MasterModel.h"
+#import "Message.h"
+#import "CategoryModel.h"
+#import "Service.h"
+#import "AppDelegate.h"
+#import "TemplateCell.h"
+#import "HCSStarRatingView.h"
+#import <HCSStarRatingView/HCSStarRatingView.h>
+#endif
